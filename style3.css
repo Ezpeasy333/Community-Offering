@@ -39,7 +39,7 @@ body {
 }
 
 .poem:nth-child(2) {
-    left: 400px;
+    left: 430px;
     top: 210px;
 }
 
@@ -65,8 +65,36 @@ body {
 }
 
 .poem:nth-child(6) {
-    left: 140px;
+    left: 130px;
     top: 500px;
 
 }
 
+
+.poem:nth-child(7) {
+    left: 1200px;
+    top: 500px;
+
+}
+
+.poem:nth-child(8) {
+    left: 1600px;
+    top: 160px;
+
+}
+.poem:nth-child(9) {
+    left: 1400px;
+    top: 360px;
+
+}
+.poem:nth-child(10) {
+    left: 1900px;
+    top: 300px;
+
+}
+
+.poem:nth-child(11) {
+    left: 2000px;
+    top: 100px;
+
+}
