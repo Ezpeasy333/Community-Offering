@@ -1,0 +1,53 @@
+
+body{
+    margin:0;
+    overflow-x: hidden;
+    background:rgb(250, 197, 230);
+    
+}
+h1{
+    text-align: center;
+}
+
+
+
+p{
+    font-family: Arial;
+    margin-left:200px;
+    line-height: 1.6;
+    width: 400px;
+    text-align: center;
+}
+h2{
+    font-size: 80px;
+    border: 2px solid rgb(37, 153, 255);
+    border-radius: 10px;
+    padding:5px;
+    font-family: Arial;
+}
+.element { position: absolute; top: 45px; right: 80px; }
+h3{
+    width:400px;
+    margin-left: 700px;
+    
+    margin-top:-350px;
+    border: 2px solid red;
+    border-radius: 8px;
+    padding:5px;
+    text-align: center;
+    font-family: Arial;
+}
+    .masonry {
+        
+        column-count: 4;
+        column-gap: 20px;
+        width: 100%;
+       
+}
+
+    .masonry img {
+        width: 100%;
+        margin-bottom: 20px;
+        display: block;
+        border-radius: 10px;
+}

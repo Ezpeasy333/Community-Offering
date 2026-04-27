@@ -1,0 +1,85 @@
+body{
+    margin:0;
+    overflow-x: hidden;
+    background:rgb(250, 197, 230);
+}
+
+/*horixontal scroll container*/
+.container{
+    display:flex;
+    flex-direction: row;
+    
+    height: 100vh;
+    overflow-x:auto;
+    overflow-y: hidden;
+   
+    scroll-behavior: smooth;
+}
+/*each full screeen section*/
+.panel{
+    width: 100vw;
+    height: 100vh;
+    flex-shrink: 0;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: cether;
+}
+
+/* content inside panels*/
+.content{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+    text-align:center;
+}
+/*image style*/
+img{
+    align-self: flex-start;
+    margin-top: 30px;
+    max-width: 300px;
+    height:auto;
+
+}
+/*
+.image-row {
+    display: flex;
+    flex-direction: row; next to each other
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+} 
+
+
+
+.imag-row img {
+    width: 200px;
+    height: auto;
+}
+    */
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+
+  width: 80%;
+}
+
+.image-grid img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+}
+
+.image-grid img:nth-child(1) {
+  grid-row: span 2;
+}
+
+.image-grid img:nth-child(4) {
+  grid-column: span 2;
+}

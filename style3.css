@@ -1,0 +1,72 @@
+body {
+    background: rgb(250, 197, 230);
+    font-family: Georgia, serif;
+    margin: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+/* big horizontal canvas */
+.poem-container {
+    position: relative;
+    width: 3000px;
+    height: 100vh;
+}
+
+/* poem pieces */
+.poem {
+    position: absolute;
+    max-width: 260px;
+    padding: 16px;
+
+    background: #fffdf8;
+    box-shadow: 3px 5px 12px rgba(0,0,0,0.12);
+}
+
+/* subtle variation */
+.poem:nth-child(2n) { background: #fefaf4; }
+.poem:nth-child(3n) { background: #fffaf0; }
+
+.poem:nth-child(1n) { transform: rotate(1deg); }
+.poem:nth-child(4n) { transform: rotate(-1.5deg); }
+
+.poem:nth-child(6n) { transform: rotate(-2.5deg); }
+
+/* ✂️ placement (clean + intentional) */
+.poem:nth-child(1) {
+    left: 100px;
+    top: 80px;
+}
+
+.poem:nth-child(2) {
+    left: 400px;
+    top: 210px;
+}
+
+.poem:nth-child(3) {
+    left: 750px;
+    top: 100px;
+    z-index: 2; /* sits on top */
+}
+
+.poem:nth-child(4) {
+    left: 900px;
+    top: 380px;
+}
+
+.poem:nth-child(5) {
+    left: 1200px;
+    top: 120px;
+}
+
+.poem p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.poem:nth-child(6) {
+    left: 140px;
+    top: 500px;
+
+}
+
