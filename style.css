@@ -10,8 +10,22 @@ h1{
 }
 
 
+.Talia {
+    width: 50%;        
+  margin: 0 auto;    
+  text-align: center; 
 
-p{
+   
+}
+.format{
+    font-family: Arial;
+    margin-left:200px;
+    line-height: 1.6;
+    width: 400px;
+    text-align: center;
+}
+
+.name{
     font-family: Arial;
     margin-left:200px;
     line-height: 1.6;
