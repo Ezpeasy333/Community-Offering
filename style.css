@@ -25,7 +25,20 @@ h2{
     padding:5px;
     font-family: Arial;
 }
+
 .element { position: absolute; top: 45px; right: 80px; }
+.button{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.name{
+    position: absolute; top: 210px; right: 25px;
+}
+.arrow {
+    font-weight: bold;
+}
 h3{
     width:400px;
     margin-left: 700px;
@@ -41,7 +54,8 @@ h3{
         
         column-count: 4;
         column-gap: 20px;
-        width: 100%;
+        width: 95%;
+        margin-left: 20px;
        
 }
 
@@ -50,4 +64,32 @@ h3{
         margin-bottom: 20px;
         display: block;
         border-radius: 10px;
+        cursor:pointer;
+        transition: transform 0.2s;
+
 }
+
+.masonry img:hover {            
+    transform: scale(1.03);
+}
+
+/* ✅ ADD THIS (lightbox) */
+#lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+}
+
