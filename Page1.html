@@ -14,7 +14,7 @@
     <ul>
         <li><a href="index.html">Main Page</a></li> 
         <li><a href="Page1.html">Pictures</a></li> 
-       
+       <li><a href="namepage.html">Name</a></li> 
         <li><a href="Page3.html">Poems</a></li> 
     </ul>
 </div>
@@ -41,7 +41,7 @@ let gallery = document.getElementById("gallery");
 
 // create list of numbers
 let numbers = [];
-for (let i = 1; i <= 77; i++) {
+for (let i = 1; i <= 30; i++) {
   numbers.push(i);
 }
 
@@ -54,7 +54,7 @@ for (let i = numbers.length - 1; i > 0; i--) {
 // create images
 numbers.forEach(num => {
   let img = document.createElement("img");
-  img.src = "images/image" + num + ".JPG";
+  img.src = "nature/image" + num + ".JPG";
   img.alt = "image" + num;
 
   img.onclick = function() {
