@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Offering</title>
+
+    
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="Navipage.css">
+</head>
+
+<body>
+
+<div class="menu">
+    <ul>
+        <li><a href="index.html">Main Page</a></li> 
+        <li><a href="Page1.html">Pictures</a></li> 
+        <li><a href="namepage.html">Name</a></li> 
+        <li><a href="Drawings.html">Drawings</a></li> 
+        <li><a href="Page3.html">Poems</a></li> 
+    </ul>
+</div>
+
+<div class="center">
+<div class="book">
+   <img id="gallery" src="drawings/img1.jpg"> 
+  
+</div>
+
+</div>
+
+<script>
+const images = [
+  "drawings/img1.jpg",
+  "drawings/img2.jpg",
+  "drawings/img3.jpg",
+  "drawings/img4.jpg",
+  "drawings/img5.jpg", 
+  "drawings/img6.jpg",
+  "drawings/img7.jpg",
+  "drawings/img8.jpg",
+  "drawings/img9.jpg",   
+  "drawings/img10.jpg",
+  "drawings/img11.jpg",
+  "drawings/img12.jpg",
+  "drawings/img13.jpg", 
+  "drawings/img14.jpg",
+  "drawings/img15.jpg",
+"drawings/img16.jpg",
+  "drawings/img17.jpg",
+  "drawings/img18.jpg",
+  "drawings/img19.jpg", 
+  "drawings/img20.jpg",
+  "drawings/img21.jpg",
+  "drawings/img22.jpg",
+  "drawings/img23.jpg",
+  "drawings/img24.jpg",
+  "drawings/img25.jpg", 
+  "drawings/img26.jpg",
+  "drawings/img27.jpg",
+  "drawings/img28.jpg",
+  "drawings/img29.jpg",
+  "drawings/img30.jpg",
+  "drawings/img31.jpg", 
+  "drawings/img32.jpg",
+  "drawings/img33.jpg",
+  "drawings/img34.jpg",
+  "drawings/img35.jpg",
+  "drawings/img36.jpg",
+  "drawings/img37.jpg", 
+  "drawings/img38.jpg",
+  "drawings/img39.jpg",
+  "drawings/img40.jpg",
+  "drawings/img41.jpg",
+  "drawings/img42.jpg",
+  "drawings/img43.jpg", 
+  "drawings/img44.jpg",
+  "drawings/img45.jpg",
+  "drawings/img46.jpg",
+  "drawings/img47.jpg",
+  "drawings/img48.jpg",
+  "drawings/img49.jpg", 
+  "drawings/img50.jpg",
+  "drawings/img51.jpg",
+  "drawings/img52.jpg",
+  "drawings/img53.jpg",
+  "drawings/img54.jpg",
+  "drawings/img55.jpg"
+
+
+
+
+  
+];
+
+let current = 0;
+const gallery = document.getElementById("gallery");
+
+gallery.addEventListener("click", (e) => {
+  e.stopPropagation();
+
+  current++;
+  if (current >= images.length) {
+    current = 0;
+  }
+
+  gallery.src = images[current];
+});
+</script>
+
+
+
+
+
+</body>
+</html>

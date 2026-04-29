@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding-top: 70px;
+  background: rgb(250, 197, 230);
+ 
+}
+.menu ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;   
+}
+
+
+
+.book {
+    width: min(550px, 85vw);  
+    aspect-ratio: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+   pointer-events: none;
+
+ 
+ 
+}
+
+.book img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+
+
+
+

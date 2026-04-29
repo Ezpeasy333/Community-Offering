@@ -2,7 +2,10 @@ body{
     margin:0;
     overflow-x: hidden;
     background:rgb(250, 197, 230);
+    padding-top: 70px;
 }
+
+
 
 /*horixontal scroll container*/
 .container{
