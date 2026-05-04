@@ -2,11 +2,9 @@ body {
     background: rgb(250, 197, 230);
     font-family: Georgia, serif;
     margin: 0;
-    padding-top: 70px;
     overflow-x: auto;
     overflow-y: auto;
 }
-
 
 /* big horizontal canvas */
 .poem-container {
@@ -107,8 +105,6 @@ body {
     max-width: 500px;
 
 }
-
-
 .poem:nth-child(13) {
     left: 2300px;
     top: 300px;
