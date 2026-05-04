@@ -107,3 +107,11 @@ body {
     max-width: 500px;
 
 }
+
+
+.poem:nth-child(13) {
+    left: 2300px;
+    top: 300px;
+    max-width: 500px;
+
+}
